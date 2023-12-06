@@ -241,7 +241,18 @@ const speedway1 = {
                     background: 'Asphalt%20road/road_asphalt23.png'
                 },
                 {
-                    background: null
+                    background: null,
+                    objects: [
+                        {
+                            background: 'tree_large.png',
+                            size: '60px',
+                            position: {
+                                top: '2px',
+                                left: '-12px'
+                            },
+                            transform: 'none'
+                        }
+                    ]
                 },
                 {
                     background: 'Asphalt%20road/road_asphalt21.png'
@@ -328,7 +339,18 @@ const speedway1 = {
                     background: 'Asphalt%20road/road_asphalt23.png'
                 },
                 {
-                    background: null
+                    background: null,
+                    objects: [
+                        {
+                            background: 'tree_large.png',
+                            size: '60px',
+                            position: {
+                                top: '2px',
+                                left: '5px'
+                            },
+                            transform: 'none'
+                        }
+                    ]
                 },
                 {
                     background: 'Asphalt%20road/road_asphalt21.png'
@@ -391,7 +413,18 @@ const speedway1 = {
                     background: 'Asphalt%20road/road_asphalt23.png'
                 },
                 {
-                    background: null
+                    background: null,
+                    objects: [
+                        {
+                            background: 'tree_large.png',
+                            size: '80px',
+                            position: {
+                                top: '-3px',
+                                left: '-5px'
+                            },
+                            transform: 'none'
+                        }
+                    ]
                 },
                 {
                     background: null    
