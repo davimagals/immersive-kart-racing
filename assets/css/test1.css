@@ -1,0 +1,29 @@
+
+body {
+    background-color: darkgrey;
+    margin: 0;
+}
+
+#screen-container {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    border: 1px solid red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#screen {
+    border: none;
+    border-collapse: collapse;
+}
+#screen tr {
+    border: none;
+}
+#screen td {
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+}
