@@ -1,0 +1,28 @@
+
+#screen-container {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#screen {
+    border: none;
+    border-collapse: collapse;
+}
+#screen tr {
+    border: none;
+}
+#screen td, #screen-options td {
+    box-sizing: border-box;
+    border: 1px solid #333333;
+    background-repeat: no-repeat;
+}
+
+.max-height {
+    max-height: 60vh !important;
+}
