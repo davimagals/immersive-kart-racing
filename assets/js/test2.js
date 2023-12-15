@@ -263,3 +263,25 @@ function deleteSprite(event) {
         element.remove()
     }
 }
+
+// Mostrar menu propriedades.
+function showMenuProperties(event) {
+    let menuProp = document.querySelector('#menu-properties')
+    if (menuProp.classList.contains('d-none')) {
+        menuProp.classList.remove('d-none')
+        menuProp.classList.add('d-block')
+    }
+
+    let accordionList = document.querySelectorAll('.accordion-button')
+    accordionList.forEach((accordion) => {
+        if (!accordion.classList.contains('collapsed')) {
+            const clickEvent = new CustomEvent('click')
+            accordion.dispatchEvent(clickEvent)
+        }
+    })
+}
+
+// Mostrar propriedades do background do grid.
+function showBgProperties(event) {
+    showMenuProperties(event)
+}
